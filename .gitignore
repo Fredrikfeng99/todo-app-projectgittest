@@ -1,0 +1,11 @@
+# Operativsystem
+.DS_Store
+Thumbs.db
+
+# Kodredigerare
+.vscode/
+.idea/
+
+# Beroenden och loggar
+node_modules/
+*.log
