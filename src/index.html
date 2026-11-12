@@ -3,10 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Min webbsida</title>
+  <title>fredrikfengs webbsida</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; background-color: #f0f4f8; color: #1e293b; padding: 40px; transition: 0.3s; }
+    button { padding: 10px 20px; margin: 5px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; }
+    .btn-blå { background-color: #3b82f6; color: white; }
+    .btn-grön { background-color: #10b981; color: white; }
+    .btn-mörk { background-color: #1e293b; color: white; }
+    .btn-återställ { background-color: #64748b; color: white; }
+  </style>
 </head>
 <body>
-  <h1>Välkommen till min sida</h1>
-  <p>Här är min första text.</p>
+  <h1>Välkommen till fredrikfengs sida</h1>
+  <p>Klicka på en knapp för att ändra bakgrundsfärg eller aktivera mörkt läge.</p>
+  <button class="btn-blå" onclick="document.body.style.backgroundColor='#dbeafe'; document.body.style.color='#1e293b'">Ljusblå</button>
+  <button class="btn-grön" onclick="document.body.style.backgroundColor='#d1fae5'; document.body.style.color='#1e293b'">Ljusgrön</button>
+  <button class="btn-mörk" onclick="document.body.style.backgroundColor='#0f172a'; document.body.style.color='#f8fafc'">Mörkt läge</button>
+  <button class="btn-återställ" onclick="document.body.style.backgroundColor='#f0f4f8'; document.body.style.color='#1e293b'">Återställ</button>
 </body>
 </html>
