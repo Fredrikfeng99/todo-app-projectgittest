@@ -11,5 +11,7 @@ En enkel och grundläggande webbplats byggd med HTML5.
 1. Ladda ner eller klona projektet.
 2. Öppna `index.html` i valfri webbläsare för att visa sidan.
 
+##Kom igång med git pull
+
 ## Skapad av
 **fredrikfeng**
